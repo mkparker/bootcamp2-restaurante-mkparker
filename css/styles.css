@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
 /*=====Universal=====*/
 .container-fluid {
   margin: 0;
@@ -96,3 +100,44 @@ nav.navbar {
 
 
 /*=====End Carousel=====*/
+
+/*=====Our Story=====*/
+#our_story {
+  min-height: 600px;
+}
+
+.our_story_row {
+  margin-top: 30px;
+}
+
+.our_story {
+  font-family: 'lobster', serif;
+  color: #F8512F;
+  font-size: 6em;
+  text-shadow: 1px 1px 5px #0a0a0a;
+}
+
+.one_man {
+  font-family: 'raleway', Sans-Serif;
+  font-weight: 700;
+  font-size: 2em;
+  margin-top: 0;
+}
+
+.story_year {
+  font-weight: 700;
+  font-size: 9em;
+  z-index: -10000;
+  position: absolute;
+  color: rgba(149, 147, 147, .2);
+  font-family: 'Playfair Display', serif;
+  margin-top: 0;
+}
+
+#our_story p {
+  font-family: 'Raleway', Sans-Serif;
+  font-weight: 300;
+}
+
+
+/*======End Our Story======*/
