@@ -6,6 +6,10 @@
 .container-fluid {
   margin: 0;
 }
+
+.text-shadow {
+
+}
 /*=====End Universal======*/
 
 /*=====Navbar=====*/
@@ -102,7 +106,7 @@ nav.navbar {
 /*=====End Carousel=====*/
 
 /*=====Our Story=====*/
-#our_story {
+#our_story, #review {
   min-height: 600px;
 }
 
@@ -141,3 +145,33 @@ nav.navbar {
 
 
 /*======End Our Story======*/
+
+/*=====Review=====*/
+#review {
+  background-image: url('../img/food_review.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.center {
+  background-color: rgba(20, 20, 20, .6);
+  margin-top: 145px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.fresno-bee {
+  font-family: 'Lobster', cursive;
+  font-size: 5em;
+  color: #f8512f;
+  text-shadow: 1px, 1px, 5px #0a0a0a;
+}
+
+.review {
+  color: #fff;
+  font-family: 'Raleway', Sans-Serif;
+  font-weight: 300;
+  font-size: 2em;
+  text-shadow: 1px, 1px, 5px #0a0a0a;
+}
+/*=====End Review=====*/
