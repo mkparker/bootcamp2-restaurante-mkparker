@@ -106,7 +106,7 @@ nav.navbar {
 /*=====End Carousel=====*/
 
 /*=====Our Story=====*/
-#our_story, #review {
+#our_story, #review, #menu{
   min-height: 600px;
 }
 
@@ -175,3 +175,51 @@ nav.navbar {
   text-shadow: 1px, 1px, 5px #0a0a0a;
 }
 /*=====End Review=====*/
+
+/*=====Menu=====*/
+#menu {
+  background-image: url('../img/black_linen.png');
+  background-size: cover;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.menu-header {
+  color: #fff;
+  font-size: 5em;
+  font-family: 'Lobster', cursive;
+}
+
+#menu a {
+  color: #F8512F;
+  font-weight: 700;
+}
+
+#menu .nav li a:hover {
+  background-color: rgba(255, 255, 255, .1);
+  border: none;
+}
+
+#menu .nav li a {
+  border: none;
+}
+
+#menu h3 {
+  font-family: 'Raleway', Sans-Serif;
+  font-weight: 700;
+  font-size: 2em;
+  text-align: center;
+}
+
+#menu p {
+  font-family: 'Raleway', Sans-Serif;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.food {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #fff;
+}
+/*=====End Menu=====*/
