@@ -223,3 +223,40 @@ nav.navbar {
   background-color: #fff;
 }
 /*=====End Menu=====*/
+
+/*=====Contact=====*/
+#contact {
+  background-color: #F8512F;
+  padding-left: 100px;
+}
+
+.contact-us {
+  color: #fff;
+  font-family: 'Raleway', Sans-Serif;
+  font-weight: 700;
+  font-size: 3em;
+}
+
+.contact-info {
+  color: #fff;
+  font-family: 'Raleway', Sans-Serif;
+  font-weight: 300;
+  font-size: 1em;
+}
+
+.address {
+  color: #fff;
+  font-family: 'Raleway', Sans-Serif;
+  font-weight: 300;
+  font-size: 1em;
+}
+
+h6 > span {
+  font-weight: 700;
+}
+
+#contact {
+  padding-left: justify;
+  padding-right: 80px;
+}
+/*=====End Contact=====*/
